@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Bank Guru LIVE" parallel="test">
+	<parameter name="inviroment" value="http://demo.guru99.com/v4/" />
+
+	<test name="Run on firefox">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.bankguru.login.User_02_Register_And_Login" />
+		</classes>
+	</test>
+
+	<test name="Run on chrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.bankguru.login.User_02_Register_And_Login" />
+		</classes>
+	</test>
+
+	<test name="Run on edge">
+		<parameter name="browser" value="edge" />
+		<classes>
+			<class name="com.bankguru.login.User_02_Register_And_Login" />
+		</classes>
+	</test>
+
+	<!--<test name="Run on ie">
+		<parameter name="browser" value="ie" />
+		<classes>
+			<class name="com.bankguru.login.User_01_Register_And_Login" />
+		</classes>
+	</test>-->
+</suite>
